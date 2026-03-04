@@ -21,9 +21,8 @@ abstract class EndPortalBlockMixin {
             ),
             cancellable = true
     )
-    private void disableEndPortal(BlockState state, World world, BlockPos pos, Entity entity, EntityCollisionHandler handler, CallbackInfo ci) {
+    private void disableEndPortal(BlockState state, World world, BlockPos pos, Entity entity, EntityCollisionHandler handler, boolean bl, CallbackInfo ci) {
         if (DisablePortals.CONF.main.disableEndPortals) {
-
             ci.cancel();
         }
     }
