@@ -3,11 +3,6 @@ A simple mod that allows for the disabling of nether portals
 and end portals. It adds the `disableportals` command for all
 operators.
 
-<br>
-
-![screenshot example][Ex disableEndPortals]
-![screenshot example][Ex disableEndGateways]
-
 ## Command Usage
 `disableportals reloadConfig` - reloads the config file, 
 located in `config/DisablePortals.json`
@@ -20,9 +15,7 @@ turn off end portals.
 
 ## Config Usage
 A config file (`config/DisablePortals.json`) will auto 
-generate and look like this
-
-![config file screenshot][Config]
+generated.
 
 By default, no portals are disabled. To disable nether
 portals through the config, set `disableNetherPortals` to 
@@ -32,16 +25,6 @@ for the changes to take effect.
 
 <br>
 
-<!-- Badges -->
-[![Fabric API Badge][Fabric API Badge]][Fabric API Download]
-
-
-<!-- Image URLs -->
-[Ex disableEndPortals]: https://media.discordapp.net/attachments/819612740736778291/819730605943554048/unknown.png
-[Ex disableEndGateways]: https://media.discordapp.net/attachments/819612740736778291/819735337240363028/image-1.png4.png
-[Config]: https://media.discordapp.net/attachments/819612740736778291/819655485379837992/unknown.png
-
-[Fabric API Badge]: https://i.imgur.com/HabVZJR.png 
-
-<!-- Hyperlink URLs -->
-[Fabric API Download]: https://modrinth.com/mod/fabric-api 
+<a href="https://modrinth.com/mod/fabric-api">
+  <img src="https://i.imgur.com/HabVZJR.png" width="200">
+</a>
