@@ -18,7 +18,7 @@ public class DisablePortalsCommand {
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
         dispatcher.register(
                 literal("disableportals")
-                        .requires(source -> source.hasPermissionLevel(2))
+                        .requires(CommandManager.requirePermissionLevel(CommandManager.GAMEMASTERS_CHECK))
                         .then(
                                 CommandManager.literal("allowNether")
                                         .then(
